@@ -1,0 +1,30 @@
+.danmu-wrapper {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.danmu-screen {
+    position: relative;
+    border: 1px solid gray;
+    height: 380px;
+}
+
+@-webkit-keyframes myfirst {
+    to {left: 0; visibility: visible}
+}
+
+.danmu-animaton {
+    display: block;
+    position: absolute;
+    font-size: 24px;
+    color: red;
+    white-space: nowrap;
+    visibility: hidden;
+    -moz-animation: myfirst 10s;	/* Firefox */
+    -webkit-animation: myfirst 10s;	/* Safari 和 Chrome */
+    -o-animation: myfirst 10s;
+}
+
+.send-button {
+    margin-right: 25px;
+}
